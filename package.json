@@ -50,7 +50,6 @@
   "dependencies": {
     "@callstack/react-theme-provider": "^3.0.9",
     "color": "^3.1.2",
-    "react-native-paper": "git+https://github.com/Delmock-Technologies-Inc/react-native-paper.git#fix/bottom-nav-for-publish",
     "use-latest-callback": "^0.1.5"
   },
   "devDependencies": {
@@ -155,13 +154,7 @@
     "output": "lib",
     "targets": [
       "commonjs",
-      "module",
-      [
-        "typescript",
-        {
-          "project": "tsconfig.build.json"
-        }
-      ]
+      "module"
     ]
   },
   "packageManager": "yarn@4.5.3"

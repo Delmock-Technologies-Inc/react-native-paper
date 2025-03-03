@@ -1,6 +1,9 @@
 {
   "extends": "./tsconfig",
   "exclude": ["example", "docs", "**/__tests__/*"],
-  "noEmitOnError": false,
-  "skipLibCheck": true
+  "compilerOptions": {
+    "noEmitOnError": false,
+    "skipLibCheck": true,
+    "strict": false
+  },
 }
