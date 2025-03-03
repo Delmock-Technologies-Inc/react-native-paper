@@ -1,4 +1,5 @@
 {
   "extends": "./tsconfig",
-  "exclude": ["example", "docs", "**/__tests__/*"]
+  "exclude": ["example", "docs", "**/__tests__/*"],
+  "noEmitOnError": false
 }

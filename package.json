@@ -1,6 +1,6 @@
 {
-  "name": "react-native-paper",
-  "version": "5.13.1",
+  "name": "@wtvamp/react-native-paper",
+  "version": "5.13.1-navfix",
   "description": "Material design for React Native",
   "main": "lib/commonjs/index.js",
   "module": "lib/module/index.js",
@@ -16,7 +16,7 @@
   "sideEffects": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/callstack/react-native-paper.git"
+    "url": "https://github.com/Delmock-Technologies-Inc/react-native-paper.git"
   },
   "author": "",
   "license": "MIT",
@@ -50,7 +50,7 @@
   "dependencies": {
     "@callstack/react-theme-provider": "^3.0.9",
     "color": "^3.1.2",
-    "react-native-paper": "^5.13.1",
+    "react-native-paper": "git+https://github.com/Delmock-Technologies-Inc/react-native-paper.git#fix/bottom-nav-for-publish",
     "use-latest-callback": "^0.1.5"
   },
   "devDependencies": {
